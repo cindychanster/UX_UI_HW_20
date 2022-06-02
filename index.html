@@ -7,77 +7,944 @@
 
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+<!--My CSS-->
+<link href="css/style.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
 </head>
 <body>
-    A navigation menu containing the different phases of this project.
-    <ul class="nav justify-content-center">
-        <li class="nav-item">
-          <a class="nav-link active" href="#">Active</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </li>
-      </ul>
-    A section introducing the business or product the case study was conducted on. This section should include the name of the business or product.
-    <div class="jumbotron">
-        <h1 class="display-4">Hello, world!</h1>
-        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-        <hr class="my-4">
-        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-        <p class="lead">
-          <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-        </p>
-      </div>
-    The research you conducted to uncover the problem statement.
-    <div class="card" style="width: 18rem;">
-        <div class="card-header">
-          Featured
-        </div>
-        <ul class="list-group list-group-flush">
-            <li class="list-group-item">Case Study</li>
-            <li class="list-group-item">User Interface Analysis</li>
-            <li class="list-group-item">Definition and Ideation </li>
-            <li class="list-group-item">Prototype & User Testing</li>
-            <li class="list-group-item">Final Thoughts</li>
-        </ul>
-      </div>
-    The problem statement that you uncovered with your research.
-    Copy
-<div class="jumbotron jumbotron-fluid">
-  <div class="container">
-    <h1 class="display-4">The problem</h1>
-    <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-  </div>
-</div>
-    How you iterated on your work based on testing.
 
-    <div class="media">
-        <img src="..." class="align-self-start mr-3" alt="...">
-        <div class="media-body">
-          <h5 class="mt-0">Top-aligned media</h5>
-          <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
-          <p>Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-        </div>
+  <section class="top-nav">
+    <div>
+        <img id="logo" src="images/Logo.png" alt="Cindy Chan" height="80px" />
+    </div>
+    <input id="menu-toggle" type="checkbox" />
+    <label class='menu-button-container' for="menu-toggle">
+    <div class='menu-button'></div>
+  </label>
+<ul class="menu">
+    <li><a href="index.html">CINDY CHAN</a></li>
+    <li><a href="#portfolio">PORTFOLIO</a></li>
+    <li><a href="#skills">SKILLS</a></li>
+    <li><a href="#contact">CONTACT</a></li>
+</ul>
+</section>
+    <div class="seperator"></div>
+
+        <!--Jumbotron-->
+        <div class="left">
+          <section class="container">
+              <div class="row">
+                  <div class="col"></div>
+                  <div class="col-9 py-5">
+                      <img class="rounded-3 shadow w-100" src="images/SWLogo2.png">
+                  </div>
+                  <div class="col"></div>
+              </div>
+          </section>
+          </div>
+  
+          <section class="container">
+              <div class="row text-center">
+                  <div class="col">
+                      <h4>A case study by Cindy Chan, Fiona Lin & Jeffrey De Leon</h4>
+                  </div>
+                 
+              </div>
+          </section>
+         
+          <!--line-->
+       <section class="container pt-5">
+          <div class="row">
+              <div class="col-12 line"></div>
+          </div>
+      </section>
+  
+          <!--About-->
+          <section id="About">
+              <div class="py-4">
+              <div class="container pt-5">
+                  <div class="row pt-3 align-items-center">
+                      <div class="col-sm d-md-block d-none">
+                          <img src="images/SWLogo.png" class="img-fluid">
+                      </div>
+                      <div class="col-sm">
+                          <h1 class="lh-1 mb-3" >What is Spectrum Works?</h1>
+                          <p  >Spectrum Works' main purpose is to connect employers and recruiters with autistic
+                              job seekers in a job fair format. This format breaks the stigma associated with autistic individuals
+                              contributing to the Canadian workforce</p>
+                      </div>
+                  </div>
+              </div>
+              </div>
+          </section>
+  
+          <section class="container mt-5">
+              <div class="row">
+                  <div class="col-12 line"></div>
+              </div>
+          </section>
+  
+          <section class="container mt-4">
+              <div class="row">
+                  <div class="col">
+                      <h4>The Problem</h4>
+                  </div>
+              </div>
+          </section>
+  
+          <section class="container">
+              <div class="row align-items-center">
+                  <div class="col-sm-8">
+                      <h1 class="mt-3 mb-3 ">The desktop and mobile UI is not friendly at all.
+                      </h1>
+                      <p  >The desktop and mobile versions of their website were not
+                              responsive causing design and layout issues. Recruiters left the site without
+                          registering because relevant event information was not easy to find or
+                          non-existent. Without any recruiters, there's no job fair!</p>
+                      <h4 class="mt-5">The Solution</h4>
+                      <h1 class="mt-3 mb-3">Let's make it more friendly! </h1>
+                      <p  >Improvements to the layout of information need to be made for employers to better
+                          navigate the site. This will encourage employers to feel confident about registering for the event!</p>
+                  </div>
+                  <div class="col-sm"><img class="w-100" src="images/image1.png"></div>
+              </div>
+          </section>
+  
+          <section id="UI"></section>
+  
+          <!--line-->
+          <section class="container mt-5 pt-5">
+              <div class="row">
+                  <div class="col-12 line"></div>
+              </div>
+          </section>
+  
+          <!--UI Analysis-->
+  
+          <section class="container mt-4">
+              <div class="row">
+                  <div class="col">
+                      <h4>User Interface Analysis</h4>
+                  </div>
+              </div>
+          </section>
+  
+          <section class="container mb-5">
+              <div class="row align-items-center">
+                  <div class="col-sm-8">
+                      <h1 class="mt-3 mb-3">The hardest part is starting!
+                      </h1>
+                      <p  >With most projects, it's hard to start the engine right at the get-go. Before doing any sort of research, it's important to get our personal ideas out there. So, we made a proto-persona and did a heuristic evaluation to understand what we really need to get started on.</p>
+                  </div>
+                  <div class="col-sm"> <img class="w-100" src="images/image6-removebg-preview.png"></div>
+              </div>
+          </section>
+  
+          <section class="container">
+              <div class="row">
+                  <div class="col-6 col-md-3 mb-4">
+                      <h4>Proto-Persona</h4>
+                      <div class="line"></div>
+                  </div>
+                  <div class="col"></div>
+              </div>
+          </section>
+          
+          <div class="right">
+              <section class="container mb-5 shadow rounded-3">
+                  <div class="row"><img class="w-100" src="images/persona.png"></div>
+              </section>
+          </div>
+          
+              <section class="container">
+                  <div class="row">
+                      <div class="col-8 col-md-3 mb-4">
+                          <h4>Heuristic Evaluation</h4>
+                          <div class="line"></div>
+                      </div>
+                  </div>
+              </section>
+  
+                  <section class="container">
+                      <div class="row align-items-center">
+                          <div class="col-sm-8">
+                              <h1 class="mt-3">To critique something you got to experience it first!
+                              </h1>
+                              <p class="py-4">The best way to get an idea of the issues was to play the site
+                                  ourselves. So we used <a
+                                      href="https://www.figma.com/file/wvyBGULQKKWmAtzAtwBO0C/Spectrum-Works-Heuristic-Evaluation?node-id=0%3A1"
+                                      class="link">heuristic evaluation</a> to better understand the flaws in the
+                                  site's design. From our evaluation, we discovered three main pain points.</p>
+                          </div>
+                          <div class="col-sm"> <img class="w-100" src="images/heuristic-removebg-preview.png"></div>
+                      </div>
+                  </section>
+  
+  
+                  <section>
+                      <div class="container mt-5">
+                          <div class="row">  
+                              <div class="col-4 col-md-2 mb-5">
+                                  <h4>Pain Points</h4>
+                              <div class="line"></div>
+                              </div>
+                          </div>
+                          <div class="row g-4 mb-5 row-cols-1 row-cols-lg-3">
+                              <div class="bottom-1 col d-flex align-items-start">
+                                  <div class="icon-square text-dark me-3">
+                                      <i class="bi bi-emoji-angry"></i>
+                                  </div>
+                                  <div>
+                                      <h2>Inconvenient</h2>
+                                      <p>There is no quick way to get all the necessary information and
+                                          steps to register are not explained.</p>
+                                  </div>
+                              </div>
+                              <div class="bottom-2 col d-flex align-items-start">
+                                  <div class="icon-square text-dark me-3">
+                                      <i class="bi bi-translate"></i>
+                                  </div>
+                                  <div>
+                                      <h2>French & English</h2>
+                                      <p>French and English were combined on the same page and need to be separated.</p>
+                                  </div>
+                              </div>
+                              <div class="bottom-3 col d-flex align-items-start">
+                                  <div class="icon-square text-dark me-3">
+                                      <i class="bi bi-building"></i>
+                                  </div>
+                                  <div>
+                                      <h2>Architecture</h2>
+                                      <p>Site architecture and organization needs to be improved.</p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </section>
+  
+                  <section id="Research"></section>
+                  <!--line-->
+                  <section class="container mt-5 pt-5">
+                      <div class="row pt-5">
+                          <div class="col-12 line"></div>
+                      </div>
+                  </section>
+  
+  
+                  <!--Research-->
+                  <section class="container mt-4">
+                      <div class="row">
+                          <div class="col">
+                              <h4>Research</h4>
+                          </div>
+                      </div>
+                  </section>
+  
+                  <section class="container mb-5">
+                      <div class="row align-items-center">
+                          <div class="col-sm"> <img class="w-100" src="images/image5-removebg-preview.png"></div>
+                          <div class="col-sm-8">
+                              <h1 class="mt-3 mb-3">EFFECTIVENESS is key</h1>
+                              <p  >We found that <a
+                                      href="https://docs.google.com/forms/d/1kyJz7dkP7tCEGhEe3ZEaEn313ZQoXDs8O3ljkr8zL4o/edit#responses"
+                                      class="link ">online surveying</a>, <a
+                                      href="https://www.figma.com/file/wvyBGULQKKWmAtzAtwBO0C/Spectrum-Works-Heuristic-Evaluation?node-id=0%3A1"
+                                      class="link ">personal interviews</a> and <a href="#"
+                                      class="link ">competitive analysis</a> would be the most effective! The
+                                  following are the results observed from the previously mentioned methods.</p>
+                          </div>
+                      </div>
+                  </section>
+  
+  
+                  <section class="container">
+                      <div class="row">
+                          <div class="col-6 col-sm-3 mb-4">
+                              <h4>Survey Results</h4>
+                              <div class="line"></div>
+                          </div>
+                          <div class="col"></div>
+                      </div>
+                  </section>
+  
+                  <div class="container pb-5">
+                      <div class="row">
+                          <div class="bottom-3 col-sm text-center">
+                              <h3 class="mt-3 mb-3">What did you use to look at the Spectrum Works website?
+                              </h3>
+                              <div class="row align-items-center">
+                                  <div class="col-sm text-center"><img class="w-100" src="images/survey1-removebg-preview.png"></div>
+                              </div>
+                          </div>
+  
+                          <div class="bottom-2 col-sm text-center">
+                              <h3 class="mt-3 mb-3">Where you able to locate the social media icons?
+                              </h3>
+                              <div class="row align-items-center">
+                                  <div class="col-sm text-center"><img class="w-100" src="images/survey2-removebg-preview.png"></div>
+                              </div>
+                          </div>
+                          
+                          <div class="bottom-1 col-sm text-center">
+                              <h3 class="mt-3 mb-3">What would you like to see for past event info?
+                              </h3>
+                              <div class="row align-items-center">
+                                  <div class="col-sm text-center"><img class="w-100" src="images/survey3-removebg-preview.png"></div>
+                              </div>
+                          </div>
+                      </div>
+  
+                  </div>
+  
+                  <section class="container">
+                      <div class="row">
+                          <div class="col-6 col-md-3 mb-4">
+                              <h4>Interview Results</h4>
+                              <div class="line"></div>
+                          </div>
+                          <div class="col"></div>
+                      </div>
+                  </section>
+  
+                  <section class="container text-center">
+                      <h3 class="mt-3 mb-3">What are your first impressions of the website?</h3>
+                  </section>
+                  <section class="container py-5">
+                      <div class="row">
+                          <figure class="bottom-1 col-sm text-center">
+                              <blockquote class="blockquote">
+                                  <p>"I don't know where to look."</p>
+                              </blockquote>
+                              <figcaption class="blockquote-footer">
+                                  Sarah from <cite title="Source Title">Canadian Tire</cite>
+                              </figcaption>
+                          </figure>
+                          <figure class="bottom-2 col-sm text-center">
+                              <blockquote class="blockquote">
+                                  <p>"...it's a bit messy and confusing."</p>
+                              </blockquote>
+                              <figcaption class="blockquote-footer">
+                                  Paul from <cite title="Source Title">Dollarama</cite>
+                              </figcaption>
+                          </figure>
+                          <figure class="bottom-3 col-sm text-center">
+                              <blockquote class="blockquote">
+                                  <p>"...there's no CTA except an event app."</p>
+                              </blockquote>
+                              <figcaption class="blockquote-footer">
+                                  Jacob from <cite title="Source Title">Pizza Nova</cite>
+                              </figcaption>
+                          </figure>
+                      </div>
+                  </section>
+  
+                  <section class="container text-center">
+                      <h3 class="mt-3 mb-3">What are the aspects you don't like about the website?</h3>
+                  </section>
+                  <section class="container py-5">
+                      <div class="row">
+                          <figure class="bottom-1 col-sm text-center">
+                              <blockquote class="blockquote">
+                                  <p>"I don't know what the difference is between an employer and a partner."</p>
+                              </blockquote>
+                              <figcaption class="blockquote-footer">
+                                  Lance from <cite title="Source Title">Cineplex</cite>
+                              </figcaption>
+                          </figure>
+  
+                          <figure class="bottom-2 col-sm text-center">
+                              <blockquote class="blockquote">
+                                  <p>"...should not let the job seekers or employers spend time figuring out what they are looking at..."</p>
+                              </blockquote>
+                              <figcaption class="blockquote-footer">
+                                  Beatrice from <cite title="Source Title">Magna</cite>
+                              </figcaption>
+                          </figure>                        
+                          <figure class="bottom-3 col-sm-4 text-center">
+                              <blockquote class="blockquote">
+                                  <p>"..with my screen resolution, I don't see the navigation bar anywhere."</p>
+                              </blockquote>
+                              <figcaption class="blockquote-footer">
+                                  Sarah from <cite title="Source Title">Canadian Tire</cite>
+                              </figcaption>
+                          </figure>
+                      </div>
+                  </section>
+  
+                  <section class="container pb-5">
+                      <div class="row">
+                          <div class="col"></div>
+                          <figure class="bottom-1 col-sm-4 text-center">
+                              <blockquote class="blockquote">
+                                  <p>"...not mobile friendly..."</p>
+                              </blockquote>
+                              <figcaption class="blockquote-footer">
+                                  Paul from <cite title="Source Title">Dollarama</cite>
+                              </figcaption>
+                          </figure>
+  
+                          <figure class="bottom-3 col-sm-4 text-center">
+                              <blockquote class="blockquote">
+                                  <p>"It's not clear where to register."</p>
+                              </blockquote>
+                              <figcaption class="blockquote-footer">
+                                  Bryan from <cite title="Source Title">Home Depot</cite>
+                              </figcaption>
+                          </figure>
+                          
+                          <div class="col"></div>
+                      </div>
+                  </section>
+  
+                  <section class="container text-center">
+                      <h3 class="mt-3 mb-3">What could be on the website that would make your experience better?</h3>
+                  </section>
+                  <section class="container py-5">
+                      <div class="row">
+                          <figure class="bottom-1 col-sm-4 text-center">
+                              <blockquote class="blockquote">
+                                  <p>"Seperate the content. I'm a job seeker. I don''t care about anything that has to do with emloyers!"</p>
+                              </blockquote>
+                              <figcaption class="blockquote-footer">
+                                  Lance from <cite title="Source Title">Cineplex</cite>
+                              </figcaption>
+                          </figure>
+                          <figure class="bottom-2 col-sm-4 text-center">
+                              <blockquote class="blockquote">
+                                  <p>"the CTAs in the bottom are important, they need to be on the top and should be much clear indicators."</p>
+                              </blockquote>
+                              <figcaption class="blockquote-footer">
+                                  Bryan from <cite title="Source Title">Home Depot</cite>
+                              </figcaption>
+                          </figure>
+                          <figure class="bottom-3 col-sm text-center">
+                              <blockquote class="blockquote">
+                                  <p>"...a countdown, a clear registration button and the menu need to be defined for each section."</p>
+                              </blockquote>
+                              <figcaption class="blockquote-footer">
+                                  Paul from <cite title="Source Title">Dollarama</cite>
+                              </figcaption>
+                          </figure>
+                      </div>
+                  </section>
+  
+                  <section class="container pb-5">
+                      <div class="row">
+                          <div class="col"></div>
+                          <figure class="bottom-1 col-sm-4 text-center">
+                              <blockquote class="blockquote">
+                                  <p>"It should say non-profit and explain the nominal fees."</p>
+                              </blockquote>
+                              <figcaption class="blockquote-footer">
+                                  Beatrice from <cite title="Source Title">Magna</cite>
+                              </figcaption>
+                          </figure>
+                          <figure class="bottom-3 col-sm-4 text-center">
+                              <blockquote class="blockquote">
+                                  <p>"I'd want to see that I was recognized as being a sponsor..."</p>
+                              </blockquote>
+                              <figcaption class="blockquote-footer">
+                                  Jacob from <cite title="Source Title">Pizza Nova</cite>
+                              </figcaption>
+                          </figure>
+                          <div class="col"></div>
+                      </div>
+                  </section>
+  
+                  <section class="container text-center">
+                      <h3 class="mt-3 mb-3">What key pieces of information do you need to make a choice to participate in a virtual job fair?</h3>
+                  </section>
+                  <section class="container py-5">
+                      <div class="row">
+                          <figure class="bottom-1 col-sm text-center">
+                              <blockquote class="blockquote">
+                                  <p>"There needs to be more info about the job fair."</p>
+                              </blockquote>
+                              <figcaption class="blockquote-footer">
+                                  Sarah from <cite title="Source Title">Canadian Tire</cite>
+                              </figcaption>
+                          </figure>
+                          <figure class="bottom-2 col-sm text-center">
+                              <blockquote class="blockquote">
+                                  <p>"A clear slogan heading to encourage people to contribute and sign up for the job fair."</p>
+                              </blockquote>
+                              <figcaption class="blockquote-footer">
+                                  Paul from <cite title="Source Title">Dollarama</cite>
+                              </figcaption>
+                          </figure>
+                          <figure class="bottom-3 col-sm text-center">
+                              <blockquote class="blockquote">
+                                  <p>"... and need a very clear list of registration requirements."</p>
+                              </blockquote>
+                              <figcaption class="blockquote-footer">
+                                  Jacob from <cite title="Source Title">Pizza Nova</cite>
+                              </figcaption>
+                          </figure>
+                      </div>
+                  </section>
+  
+                  <section class="container">
+                      <div class="row">
+                          <div class="col-8 col-md-3 mb-4">
+                              <h4>Competitive Analysis</h4>
+                              <div class="line"></div>
+                          </div>
+                          <div class="col"></div>
+                      </div>
+                  </section>
+  
+                  <section class="left rounded-3 shadow container mb-5">
+                      <div class="row"><img src="images/compres.png"> </div>
+                  </section>
+  
+                  <section id="Def"></section>
+  
+                  <!--line-->
+                  <section class="container mt-5 pt-5">
+                      <div class="row pt-5">
+                          <div class="col-12 line"></div>
+                      </div>
+                  </section>
+  
+                  <!--Definition & Ideation-->
+                  <section class="container mt-4">
+                      <div class="row">
+                          <div class="col">
+                              <h4>Definition & Ideation</h4>
+                          </div>
+                      </div>
+                  </section>
+  
+                  <section class="container mb-5">
+                      <div class="row align-items-center">
+                          <div class="col-sm-8">
+                              <h1 class="mt-3 mb-3">OK! We got all the results. Time to make some
+                                  hypotheticals. </h1>
+                              <p  >With the results, we further developed the initial persona with
+                                  an empathy map. We also created a priority matrix to determine the most
+                                  important design changes that should be implemented. In addition, we created a
+                                  user's journey and a UX scenario with a specific goal. </p>
+                          </div>
+                          <div class="col-sm"><img class="w-100" src="images/image3.png"></div>
+                      </div>
+                  </section>
+  
+                  <section class="container">
+                      <div class="row">
+                          <div class="col-6 col-md-2 mb-4">
+                              <h4>Empathy Map</h4>
+                              <div class="line"></div>
+                          </div>
+                          <div class="col"></div>
+                      </div>
+                  </section>
+  
+                  <section class="right container mb-5 rounded-3 shadow">
+                      <div class="row"><img src="images/empathy.png"> </div>
+                  </section>
+  
+                  <section class="container">
+                      <div class="row">
+                          <div class="col-6 col-md-2 mb-4">
+                              <h4>Priority Matrix</h4>
+                              <div class="line"></div>
+                          </div>
+                          <div class="col"></div>
+                      </div>
+                  </section>
+  
+                  <section class="left container mb-5 rounded-3 shadow">
+                      <div class="row"><img src="images/priority.png"> </div>
+                  </section>
+  
+                  <section class="container">
+                      <div class="row">
+  
+                          <div class="col-8 col-md-3 mb-4">
+                              <h4>UX Scenario & Goal</h4>
+                              <div class="line"></div>
+                          </div>
+                          <div class="col"></div>
+                      </div>
+                  </section>
+  
+                  <section class="left container mb-5">
+                      <div class="row align-items-center">
+                          <div class="col-sm-6">
+                              <h1 class="mt-3 mb-3">Janice wants to recruit special needs job seekers!
+                              </h1>
+                              <p  >She finds out about the Spectrum Works virtual job fair. Janice registers, in order to find the inoramtion she wants.
+                                 </p>
+                          </div>
+                          <div class="col-sm text-center"><img class="w-50" src="images/clipart1788515.png"></div>
+                      </div>
+                  </section>
+  
+                  <section class="right container mb-5">
+                      <div class="row align-items-center">
+                          <div class="col-sm text-center d-md-block d-none"><img class="w-75" src="images/goal-removebg-preview.png"></div>
+                          <div class="col-sm-6">
+                              <h1 class="mt-3 mb-3">Inclusivity at the forefront.</h1>
+                              <p  >She wants to meet inclusivity and diversity goals by attending a job fair
+                                  with special needs job seekers.</p>
+                          </div>
+                      </div>
+                  </section>
+  
+                  <section class="bottom-2 shadow container rounded-3 mb-5">
+                      <div class="row"><img src="images/journey.png"> </div>
+                  </section>
+  
+                  <section class="container">
+                      <div class="row">
+                          <div class="col-6 col-md-3 mb-3">
+                              <h4>Opportunities</h4>
+                              <div class="line"></div>
+                          </div>
+                          <div class="col"></div>
+                      </div>
+                  </section>
+  
+                  <section>
+                      <div class="container">
+                          <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+                              <div class="bottom-1 col d-flex align-items-start">
+                                  <div class="icon-square text-dark me-3">
+                                      <i class="bi bi-boxes"></i>
+                                  </div>
+                                  <div>
+                                      <h2>Organization</h2>
+                                      <p>The site needs to be organized with clear instructions. The look and feel should
+                                          be simple and minimal. The scale (across Canada) of the event should be evident.
+                                      </p>
+                                  </div>
+                              </div>
+                              <div class="bottom-2 col d-flex align-items-start">
+                                  <div class="icon-square text-dark me-3">
+                                      <i class="bi bi-alarm"></i>
+                                  </div>
+                                  <div>
+                                      <h2>Date & Time</h2>
+                                      <p>Date, time and key highlights need to be prominent. The value of attending should
+                                          be clear.</p>
+                                  </div>
+                              </div>
+                              <div class="bottom-3 col d-flex align-items-start">
+                                  <div class="icon-square text-dark me-3">
+                                      <i class="bi bi-wrench-adjustable-circle"></i>
+                                  </div>
+                                  <div>
+                                      <h2>Fundamentals</h2>
+                                      <p>Technical requirements and associated registration fees needs to be clearly
+                                          explained before registration.
+                                      </p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </section>
+  
+                  <section id="Proto"></section>
+                  <!--line-->
+                  <section class="container mt-5 pt-5">
+                      <div class="row pt-1">
+                          <div class="col-12 line"></div>
+                      </div>
+                  </section>
+  
+                  <!--PROTOTYPE & TESTING-->
+                  <section class="container mt-4">
+                      <div class="row">
+                          <div class="col">
+                              <h4>Prototype & User Testing</h4>
+                          </div>
+                      </div>
+                  </section>
+  
+                  <section class="container mb-5">
+                      <div class="row align-items-center">
+                          <div class="col-sm-8">
+                              <h1 class="mt-3 mb-3">Time to put it all together and make a
+                                  prototype! </h1>
+                              <p >With the acculmination of the research and conceptualized ideas, our team was
+                                  ready to finally assemble. We started with a user path to get the fundamental
+                                  flow of the new design. Afterwords we sketched wireframes, which were
+                                  referred to while building our wireframe prototypes.</p>
+                          </div>
+                          <div class="col-sm"><img class="w-100" src="images/image4-removebg-preview.png"></div>
+                      </div>
+                  </section>
+  
+                  <section class="container">
+                      <div class="row">
+                          <div class="col-4 col-md-2 mb-4">
+                              <h4>User Path</h4>
+                              <div class="line"></div>
+                          </div>
+                          <div class="col"></div>
+                      </div>
+                  </section>
+  
+                  <section class="left container mb-5 rounded-3 shadow">
+                      <div class="row"><img src="images/userpath.png"> </div>
+                  </section>
+  
+                  <section class="container">
+                      <div class="row">
+                          <div class="col-8 col-md-3 mb-4">
+                              <h4>Wireframe Prototypes</h4>
+                              <div class="line"></div>
+                          </div>
+                          <div class="col"></div>
+                      </div>
+                  </section>
+  
+                  <section class="container mt-4">
+                      <div class="row">
+                          <div class="col">
+                              <h4>Mobile Version</h4>
+                          </div>
+                      </div>
+                  </section>
+  
+                  <section class="container mb-5">
+                      <div class="row text-center rounded-3">
+                          <iframe class="rounded-3 shadow" width="500" height="800"
+                              src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FFhr18UYoJ0BWkXumR03Xbm%2FSpectrum-Works-Redesign%3Fnode-id%3D17%253A637%26scaling%3Dscale-down%26page-id%3D17%253A636%26starting-point-node-id%3D17%253A637"
+                              allowfullscreen></iframe>
+                      </div>
+                  </section>
+  
+                  <section class="container mt-5">
+                      <div class="row">
+                          <div class="col">
+                              <h4>Desktop Version</h4>
+                          </div>
+                      </div>
+                  </section>
+  
+                  <section class="container mb-5 justify-content-center">
+                      <div class="row rounded-3 shadow">
+                          <div class="col"></div>
+                          <img class="w-50" src="images/wireframe.png">
+                          <div class="col"></div> 
+                      </div>
+                  </section>
+  
+                  <section class="container">
+                      <div class="row">
+                          <div class="col-8 col-md-3">
+                              <h4>Wireframe User Testing</h4>
+                              <div class="line"></div>
+                          </div>
+                          <div class="col"></div>
+                      </div>
+                  </section>
+  
+                  <section class="container mb-5">
+                      <div class="row align-items-center">
+                          <div class="col-sm text-center"><img class="w-75" src="images/testing-removebg-preview.png"></div>
+                          <div class="col-sm-6">
+                              <h1 class="mt-3 mb-3">The knick knacks matter!</h1>
+                              <p>With the user testing, we learned many important factors that would make the
+                                  experience a lot smoother and visually appealing. Finally, we developed our final prototype!</p>
+                          </div>
+                      </div>
+                  </section>
+  
+                  <section class="container py-5">
+                      <div class="row">
+                          <figure class="bottom-1 col-sm text-center">
+                              <blockquote class="blockquote">
+                                  <p>"add contact to the footer"</p>
+                              </blockquote>
+                              <figcaption class="blockquote-footer">
+                                  Sarah from <cite title="Source Title">Canadian Tire</cite>
+                              </figcaption>
+                          </figure>
+                          <figure class="bottom-2 col-sm text-center">
+                              <blockquote class="blockquote">
+                                  <p>"highlight Media Coverage"</p>
+                              </blockquote>
+                              <figcaption class="blockquote-footer">
+                                  Lance from <cite title="Source Title">Cineplex</cite>
+                              </figcaption>
+                          </figure>
+                          <figure class="bottom-3 col-sm text-center">
+                              <blockquote class="blockquote">
+                                  <p>"convey size and success of the event"</p>
+                              </blockquote>
+                              <figcaption class="blockquote-footer">
+                                  Beatrice from <cite title="Source Title">Magna</cite>
+                              </figcaption>
+                          </figure>
+                      </div>
+                  </section>
+  
+                  <section class="container py-5">
+                      <div class="row">
+                          <div class="col-sm"></div>
+                          <figure class="bottom-1 col-sm-4 text-center">
+                              <blockquote class="blockquote">
+                                  <p>"make it obvious this is canadian"</p>
+                              </blockquote>
+                              <figcaption class="blockquote-footer">
+                                  Bryan from <cite title="Source Title">Home Depot</cite>
+                              </figcaption>
+                          </figure>
+                          <figure class="bottom-3 col-sm-4 text-center">
+                              <blockquote class="blockquote">
+                                  <p>"italicize testimonial with link to more"</p>
+                              </blockquote>
+                              <figcaption class="blockquote-footer">
+                                  Paul from <cite title="Source Title">Dollarama</cite>
+                              </figcaption>
+                          </figure>
+                          <div class="col-sm"></div>
+                      </div>
+                  </section>
+  
+                  <section class="container">
+                      <div class="row">
+                          <div class="col-4 col-md-2 mb-4">
+                              <h4>Site Map</h4>
+                              <div class="line"></div>
+                          </div>
+                          <div class="col"></div>
+                      </div>
+                  </section>
+  
+                  <section class="left container mb-5 rounded-3 shadow">
+                      <div class="row"><img src="images/sitemap.png"> </div>
+                  </section>
+  
+                  <section class="container">
+                      <div class="row">
+                          <div class="col-6 col-md-2 mb-4">
+                              <h4>Style Guide</h4>
+                              <div class="line"></div>
+                          </div>
+                          <div class="col"></div>
+                      </div>
+                  </section>
+  
+                  <section class="right container mb-5 rounded-3 shadow">
+                      <div class="row"><img src="images/stylesheet.png"> </div>
+                  </section>
+  
+                  <section class="container">
+                      <div class="row">
+                          <div class="col-8 col-md-3 mb-4">
+                              <h4>Final Prototypes</h4>
+                              <div class="line"></div>
+                          </div>
+                          <div class="col"></div>
+                      </div>
+                  </section>
+  
+                  <section class="container mt-4">
+                      <div class="row">
+                          <div class="col">
+                              <h4>Mobile Version</h4>
+                          </div>
+                      </div>
+                  </section>
+  
+                  <section class="container mb-5">
+                      <div class="row text-center">
+                          <iframe class="rounded-3 shadow" width="500" height="800"
+                              src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FFhr18UYoJ0BWkXumR03Xbm%2FSpectrum-Works-Redesign%3Fnode-id%3D417%253A125%26scaling%3Dscale-down%26page-id%3D417%253A124%26starting-point-node-id%3D417%253A125"
+                              allowfullscreen></iframe>
+                      </div>
+                  </section>
+  
+                  <section class="container mt-5">
+                      <div class="row">
+                          <div class="col">
+                              <h4>Desktop Version</h4>
+                          </div>
+                      </div>
+                  </section>
+  
+                  <section class="container">
+                      <div class="row text-center">
+                          <iframe class="rounded-3 shadow" width="500" height="800"
+                              src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FFhr18UYoJ0BWkXumR03Xbm%2FSpectrum-Works-Redesign%3Fpage-id%3D428%253A1699%26node-id%3D428%253A1700%26viewport%3D241%252C48%252C0.03%26scaling%3Dscale-down-width%26starting-point-node-id%3D428%253A1700"
+                              allowfullscreen></iframe>
+                      </div>
+                  </section>
+  
+                  <!--line-->
+                  <section class="container mt-5">
+                      <div class="row">
+                          <div class="col-12 line"></div>
+                      </div>
+                  </section>
+  
+                  <section class="container mt-4">
+                      <div class="row">
+                          <div class="col">
+                              <h4>Final Thoughts</h4>
+                          </div>
+                      </div>
+                  </section>
+  
+                  <section class="container mb-5">
+                      <div class="row align-items-center">
+                          <div class="col-sm-8">
+                              <h1 class="mt-3 mb-3">Spectrum Works NEEDS to step up and improve their UI!
+                                  </h1>
+                              <p  >The site lacks story telling and direction. It was a challenge to write
+                                  compelling stories to empathize with the audience. In the future, Spectrum Works should consider a
+                                  job posting board, adding career tools, and tips for their employers and job seekers.
+                                  In addition, activating chatbots for upcoming events would be great, to answer any questions prior to events. Thanks for following our process!</p>
+                          </div>
+                          <div class="col-sm"><img class="w-100" src="images/image9-removebg-preview.png"></div>
+                      </div>
+                  </section>
+
+          <footer>
+            <h2><a id="contact">CONTACT</a></h2>
+            <a class="icon" href="https://www.linkedin.com/in/sindeechanuoft/" target="_blank"><img src="images/linkedin.png" alt="LinkedIn"></a>
+
+            <a class="icon" href="mailto:sindee.chan@mail.utoronto.ca"><img src="images/mail.png"></a>
+
+            <a class="icon" href="https://github.com/cindychanster" target="_blank"><img src="images/github.png"></a>
+            <p>
+<section>
+    <div>&nbsp;</div>
+</section>
+                <section>
+                    <div align="center"><hr class="rounded"></div>
+                </section>
+                Made with 🤔 ❤️ and ☕<br />
+                © 2022 Cindy Chan
+            </p>
+            <section>
+                <a href="#top"><img id="fixed-box" src="images/avatar.png" height="80px" alt="back to top"></a>
+              </section>
+        </footer>
       </div>
-    The prototype that solved your initial problem statement. 
-    <div class="container">
-        <div class="row">
-          <div class="col-sm">
-            Sketches Wireframes
-          </div>
-          <div class="col-sm">
-            Lo-Fi Prototype
-          </div>
-          <div class="col-sm">
-            Hi-Fi Prototype
-          </div>
-        </div>
-      </div>
-</body>
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script>
+            ScrollReveal({ 
+                reset: false,
+                distance: '100px',
+                duration: 1800,
+                delay: 400
+    
+            });
+    
+            ScrollReveal().reveal('.left', {delay: 200, origin: 'left' });
+            ScrollReveal().reveal('.right', {delay: 200, origin: 'right' });
+            ScrollReveal().reveal('.bottom-1', {delay: 100, origin: 'bottom' });
+            ScrollReveal().reveal('.bottom-2', {delay: 150, origin: 'bottom' });
+            ScrollReveal().reveal('.bottom-3', {delay: 200, origin: 'bottom' });
+        </script>
+      </body>
 </html>
