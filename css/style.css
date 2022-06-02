@@ -1,6 +1,6 @@
 
 .fixed-top{
-    background-color: #bdbddd;
+    background-color: #ffffff
 }
 .navbar-toggler{
     color: white;
@@ -9,12 +9,6 @@
 .link-danger
 {
     text-decoration: none;
-}
-
-.footer
-{
-    background-color: #36499a;
-    color: white; 
 }
 
 body
@@ -595,7 +589,6 @@ hr.rounded {
 
 footer
 {
-    background-color: #bdbddd;
     height:150px;
     width:100%;
     color: #fcfcfc;
