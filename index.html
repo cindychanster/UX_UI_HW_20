@@ -18,13 +18,17 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
 </head>
 
 <body>
 <!-- Header section here -->
 <section class="top-nav">
   <div>
-      <img id="logo" src="images/Logo.png" alt="Cindy Chan" height="80px" />
+    <a href="https://cindychanster.github.io/UX_UI_HW_19/"><img id="logo" src="images/Logo.png" alt="Cindy Chan" height="80px" /></a>
   </div>
   <input id="menu-toggle" type="checkbox" />
   <label class='menu-button-container' for="menu-toggle">
@@ -34,7 +38,7 @@
   <li><a href="https://cindychanster.github.io/UX_UI_HW_19/">CINDY CHAN</a></li>
   <li><a href="https://cindychanster.github.io/UX_UI_HW_19/#portfolio">PORTFOLIO</a></li>
   <li><a href="https://cindychanster.github.io/UX_UI_HW_19/#skills">SKILLS</a></li>
-  <li><a href="#contact">CONTACT</a></li>
+  <li><a href="https://cindychanster.github.io/UX_UI_HW_19/#contact">CONTACT</a></li>
 </ul>
 </section>
   <div class="seperator"></div>
@@ -44,12 +48,7 @@
             <div class="container">
                 <nav id="topnav" class="navbar navbar-expand-lg">
                     <div class="container-fluid">
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                            aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon btn-close-white"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <div>
                             <ul class="nav nav-pills">
                                 <li class="nav-item">
                                     <a class="nav-link" href="#About">About this case study</a>
@@ -963,7 +962,7 @@
     </div>
         <!-- Contact and Footer section here -->
         <footer>
-          <h2>CONTACT</a></h2>
+          <h2>CONTACT</h2>
           <a class="icon" href="https://www.linkedin.com/in/sindeechanuoft/" target="_blank"><img src="images/linkedin.png" alt="LinkedIn"></a>
 
           <a class="icon" href="mailto:sindee.chan@mail.utoronto.ca"><img src="images/mail.png"></a>
@@ -1000,5 +999,10 @@
         ScrollReveal().reveal('.bottom-2', {delay: 150, origin: 'bottom' });
         ScrollReveal().reveal('.bottom-3', {delay: 200, origin: 'bottom' });
     </script>
+            <script
+            src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+            crossorigin="anonymous"></script>
+            <script src="js/index.js"></script>
   </body>
 </html>
